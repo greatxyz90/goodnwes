@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Data | JJ VTU</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>JJ VTU</h1>
+        <p>Buy Affordable Data Instantly</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="airtime.html">Airtime</a>
+        <a href="data.html" class="active">Data</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <h2>Buy Data</h2>
+
+        <form class="vtu-form">
+            <label for="network">Select Network</label>
+            <select id="network" required>
+                <option value="">-- Choose Network --</option>
+                <option>MTN</option>
+                <option>GLO</option>
+                <option>AIRTEL</option>
+                <option>9MOBILE</option>
+            </select>
+
+            <label for="plan">Select Data Plan</label>
+            <select id="plan" required>
+                <option value="">-- Choose Plan --</option>
+                <option>500MB</option>
+                <option>1GB</option>
+                <option>2GB</option>
+                <option>5GB</option>
+            </select>
+
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" placeholder="08012345678" required>
+
+            <button type="submit">Buy Data</button>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 JJ VTU. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
